@@ -157,10 +157,12 @@ ul {
 }
 
 @media (max-width:767px) {
+    .container {}
+
     .box {
         flex-direction: column;
         width: 350px;
-        height: 100vh;
+        height: calc(100vh - 80px);
     }
 
     .box .text {
@@ -195,10 +197,9 @@ ul {
 
     .box .image,
     .box .image::before,
-    .box .image img,
-    .box {
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
+    .box .image img {
+        border-radius: 0;
         border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 }
