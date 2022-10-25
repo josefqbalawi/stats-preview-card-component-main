@@ -161,7 +161,7 @@ ul {
     .box {
         flex-direction: column;
         width: 350px;
-        height: calc(100vh - 60px);
+        height: calc(100vh - 40px);
     }
 
     .box .text {
