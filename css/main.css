@@ -78,7 +78,6 @@ ul {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
-
     max-width: 800px;
     margin: auto
 }
@@ -162,7 +161,7 @@ ul {
     .box {
         flex-direction: column;
         width: 350px;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 60px);
     }
 
     .box .text {
